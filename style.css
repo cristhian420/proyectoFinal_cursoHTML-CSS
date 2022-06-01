@@ -9,7 +9,6 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-
 header {
     height: 160px;
     width: 100%;
@@ -46,7 +45,6 @@ main .main-logo img {
     width: 272px;
     height: 92px;
 }
-
 main .main-input {
     width: 550px;
     margin: 0 auto;
@@ -62,6 +60,9 @@ main .main-input-container {
     width: 525px;
     margin: 0 auto;
 }
+main .main-input-container:hover, main .main-input-text:hover {
+    background-color: #303134;
+}
 main .main-input-text {
     border: 0;
     outline: 0;
@@ -69,4 +70,7 @@ main .main-input-text {
     height: 40px;
     background-color: #202124;
     color: #e8eaed;
+}
+main .main-input .main-mic {
+    align-self: center;
 }
