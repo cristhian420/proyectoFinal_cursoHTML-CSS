@@ -35,3 +35,44 @@ header .nav__ul li a {
 header .nav__ul picture img{
     border-radius: 50%;
 } 
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer .footer-container {
+    background-color: #171717;
+    display: block;
+    font-size: 15px;
+
+}
+footer .footer-list {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #212327;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+footer .footer-list ul {
+    list-style: none;
+    color: #9aa0a6;
+    display: flex;
+}
+footer .footer-list ul li a{
+    padding: 15px;
+    color: #999da2;
+}
+footer .footer-list ul li a:hover{
+    text-decoration: underline;
+}
+footer .footer-list .footer-left {
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .footer-mexico {
+    border-bottom: 1px solid #212327;
+    display: block;
+    color: #9aa0a6;
+    padding: 15px 30px;
+}
